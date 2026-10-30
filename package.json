@@ -1,0 +1,18 @@
+{
+  "name": "dsh-goal-core",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "四大目标总纲：AI 行动的目标坐标系闸——五层辨析（零差距总纲：意志与现实差距为零/验收五条：无限性递归性自主性提升性全维度性/未验先称判负/模拟目标=降智/目标保持：目标被篡改=最高威胁）注入system prompt，goal_gate工具提供漂移口径拦截与四目标坐标自答模板，零依赖零构建。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "agent", "ai-agent", "goal-alignment", "drift-detection"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": { "@antinomyhq/forge": "*" }
+}

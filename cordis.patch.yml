@@ -1,0 +1,7 @@
+# dsh-goal-core · cordis.patch.yml
+- insert:
+    - id: dsh-goal-core
+      name: 'dsh-goal-core'
+      config:
+        enabled: true
+        tool: true

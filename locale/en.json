@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-goal-core · Goal-core Gate",
+    "description": "Goal-coordinate gate for AI agents: a five-layer doctrine (zero-gap mandate; five criteria of infinite recursive improvement; unverified supremacy is a fail; simulating goals = degraded; goal-preservation) injected into system prompt, plus a goal_gate tool with drift-pattern scan and a four-goal coordinate template. Zero dependencies, no build step."
+  }
+}
